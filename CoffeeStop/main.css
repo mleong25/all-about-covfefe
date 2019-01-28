@@ -1,0 +1,86 @@
+h2{
+  margin: 24px;
+}
+.card-deck-hot{
+  width:300px;
+  height:500px;
+  display: block;
+}
+.page-title{
+  text-align: center;
+  font-weight: bold;
+  margin: 50px;
+  font-family: Poiret One;
+}
+.page-title::after{
+  content:"";
+  background-image: url(http://moziru.com/images/steam-clipart-latte-art-6.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: .3;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  height: 100px;
+}
+.type-btn{
+  font-family: Montserrat;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  border: .5px solid #000;
+  border-radius: 4px;
+  padding: 4px 6px;
+  -webkit-box-shadow: 0px 10px 24px 3px rgba(230,230,230,1);
+  -moz-box-shadow: 0px 10px 24px 3px rgba(230,230,230,1);
+  box-shadow: 0px 10px 24px 3px rgba(230,230,230,1);
+}
+.page-description{
+  border: .75px solid #000;
+  border-radius: 8px;
+  margin: 8px;
+  text-align: center;
+  padding: 10px 15px;
+  font-family: Montserrat;
+  font-size: 15px;
+  -webkit-box-shadow: 0px 5px 12px 3px rgba(230,230,230,1);
+  -moz-box-shadow: 0px 5px 12px 3px rgba(230,230,230,1);
+  box-shadow: 0px 5px 12px 3px rgba(230,230,230,1);
+}
+.card-text{
+  padding: 5px;
+  font-family: Montserrat;
+}
+.card-title{
+  font-family: Lobster;
+}
+.coffee-type{
+  text-align: center;
+  font-family: Lobster;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.card-img-top-hot{
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+}
+.card-img-top-cold{
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+}
+.card-img-top-spro{
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+}
